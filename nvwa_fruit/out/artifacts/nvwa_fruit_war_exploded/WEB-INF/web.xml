@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>logoutServlet</servlet-name>
+        <servlet-class>servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logoutServlet</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>noteServlet</servlet-name>
+        <servlet-class>servlet.NoteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>noteServlet</servlet-name>
+        <url-pattern>/Note</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>registerServlet</servlet-name>
+        <servlet-class>servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registerServlet</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>validationCodeServlet</servlet-name>
+        <servlet-class>servlet.ValidationCodeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>validationCodeServlet</servlet-name>
+        <url-pattern>/ValidationCode</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PersonServlet</servlet-name>
+        <servlet-class>servlet.PersonServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PersonServlet</servlet-name>
+        <url-pattern>/Person</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BackstageServlet</servlet-name>
+        <servlet-class>servlet.BackstageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BackstageServlet</servlet-name>
+        <url-pattern>/Backstage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddressServlet</servlet-name>
+        <servlet-class>servlet.AddressServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddressServlet</servlet-name>
+        <url-pattern>/Address</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>servlet.OrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/Order</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShoppingCarServlet</servlet-name>
+        <servlet-class>servlet.ShoppingCarServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShoppingCarServlet</servlet-name>
+        <url-pattern>/ShoppingCar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>CollectionServlet</servlet-name>
+    <servlet-class>servlet.CollectionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>CollectionServlet</servlet-name>
+    <url-pattern>/Collection</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MerchandiseServlet</servlet-name>
+        <servlet-class>servlet.MerchandiseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MerchandiseServlet</servlet-name>
+        <url-pattern>/Merchandise</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CategoryServlet</servlet-name>
+        <servlet-class>servlet.CategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CategoryServlet</servlet-name>
+        <url-pattern>/Category</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CommentServlet</servlet-name>
+        <servlet-class>servlet.CommentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CommentServlet</servlet-name>
+        <url-pattern>/Comment</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>/index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
